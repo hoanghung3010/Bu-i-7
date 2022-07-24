@@ -75,7 +75,9 @@ form {
     margin-bottom: 4rem;
     width: 100%;
 }
-
+.email {
+    margin-left: 3rem;
+}
 .button  button{
     width: 12rem;
     height: 4rem;
