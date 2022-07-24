@@ -44,8 +44,8 @@ html{
     color: #FF00FF;
 }
 .order{
-    max-width: 60rem;
-    height: 35rem;
+    max-width: 70rem;
+   
     border-radius: .5rem;
     box-shadow: 0.5rem 1.5rem rgba(0,0,0,.1);
     border: .1rem solid rgba(0,0,0,.2);
@@ -87,6 +87,11 @@ form {
     width: 250px;
     height: 310px;
     
+}
+@media only screen and (max-width: 320px){
+    form {
+        display: block;
+    }
 }
 
 
